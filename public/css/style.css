@@ -384,6 +384,9 @@ nav .btn:hover {
 .first_video ul li {
     font-size: 18px;
 }
+.first_video ul li i {
+    color: var(--first-color);
+}
 .experience_text span {
     font-size: 45px;
     background-color: var(--offwhite-color);
@@ -439,12 +442,70 @@ nav .btn:hover {
     font-size: 50px;
     color: var(--first-color);
 }
+.about_third_section .thirdSwiper img {
+    width: 60px;
+    border-radius: 50%;
+}
+.about_testimon_text {  
+    height: 123px;
+    overflow-y: scroll;
+}
+.about_third_section .thirdSwiper p {
+    text-align: justify;
+}
+.about_third_section .thirdSwiper .fa-quote-right {
+    font-size: 50px;
+    opacity: .5;
+    color: var(--second-color);
+}
 .about_fifth_section {
     padding: 50px 0;
 }
 .about_fifth_section .accordion-item {
     margin-bottom: 10px;
     border: 1px solid var(--first-color);
+}
+.about_fifth_section h2 {
+    font-size: 50px;
+    color: var(--first-color);
+}
+.about_fifth_section img {
+    border-radius: 50px;
+}
+.about_fifth_section li {
+    font-size: 18px;
+}
+.about_fifth_section li i {
+    color: var(--first-color);
+}
+.mission_vision img {
+    width: 100%;
+    border-radius: 10px;
+}
+.mission_vision .mission {
+    padding: 50px 0;
+}
+.mission_vision .mission h3 {
+    font-size: 35px;
+    color: var(--first-color);
+}
+.mission_vision .vision {
+    background-image: linear-gradient(#FFF9E1, #FFF9E1),url("../image/bgtes3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+}
+.mission_vision .vision h3 {
+    font-size: 35px;
+    color: var(--first-color);
+}
+.mission_vision .values {
+    padding: 50px 0;
+}
+.mission_vision .values h3 {
+    font-size: 35px;
+    color: var(--first-color);
 }
 @media only screen and (min-width: 300px) and (max-width: 500px) {
     .about_first_section {
@@ -470,6 +531,44 @@ nav .btn:hover {
     }
     .about_third_section {
         padding: 30px 0;
+    }
+    .about_third_section h2 {
+        font-size: 30px;
+    }
+    .about_fifth_section {
+        padding: 30px 0;
+    }
+    .about_fifth_section h2 {
+        font-size: 30px;
+    }
+    .about_fifth_section h5 {
+        margin-top: 20px;
+    }
+    .fifth_second_img {
+        display: none;
+    }
+    .mission_vision .mission {
+        padding: 30px 0;
+    }
+    .mission_vision .mission h3 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .mission_vision .vision h3 {
+        font-size: 30px;
+    }
+    .mission_vision .values h3 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .mission_vision .vision {
+        padding: 30px 0;
+    }
+    .mission_vision .values {
+        padding: 30px 0;
+    }
+    .reviewer_details {
+        display: block !important;
     }
 }
 /* About Us */
