@@ -352,6 +352,11 @@ nav .btn:hover {
 /* Navbar */
 
 
+/* Home */
+
+/* Home */
+
+
 /* About Us */
 .about_first_section {
     padding: 50px 0;
@@ -507,6 +512,26 @@ nav .btn:hover {
     font-size: 35px;
     color: var(--first-color);
 }
+.about_forth_section {
+    padding: 50px 0;
+}
+.about_forth_section i {
+    font-size: 40px;
+}
+.about_forth_section .forth_box {
+    outline: 1px solid var(--second-color);
+    padding: 20px 0;
+    border-radius: 10px;
+}
+.about_forth_section .forth_box:hover {
+    color: var(--offwhite-color);
+    background-color: var(--second-color);
+    outline: none;
+}
+.about_forth_section h2 {
+    font-size: 50px;
+    color: var(--first-color);
+}
 @media only screen and (min-width: 300px) and (max-width: 500px) {
     .about_first_section {
         padding: 30px 0;
@@ -569,6 +594,15 @@ nav .btn:hover {
     }
     .reviewer_details {
         display: block !important;
+    }
+    .about_forth_section {
+        padding: 30px 0;
+    }
+    .about_forth_section h2 {
+        font-size: 30px;
+    }
+    .about_forth_section .forth_box {
+        margin-top: 20px;
     }
 }
 /* About Us */
