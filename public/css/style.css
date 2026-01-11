@@ -391,6 +391,7 @@ nav .btn:hover {
 .service_offerd h2 {
     font-size: 45px;
     margin-bottom: 20px;
+    color: var(--first-color);
 }
 .home_round_anim {
     width: 130px;
@@ -412,6 +413,16 @@ nav .btn:hover {
     border: 1px solid var(--second-color);
     padding: 20px;
     border-radius: 10px;
+}
+.service_offerd .offerd_right .offerd_right_box h6 {
+    background-color: var(--first-color);
+    padding: 3px 10px;
+    border-radius: 30px;
+    display: inline;
+    color: var(--offwhite-color);
+}
+.service_offerd .offerd_right .offerd_right_box h4 {
+    margin-top: 10px;
 }
 .our_roofing {
     padding: 50px 0;
@@ -437,6 +448,7 @@ nav .btn:hover {
 }
 .home_promises h2 {
     font-size: 45px;
+    color: var(--first-color);
 }
 .prom_box {
     border: 1px solid var(--second-color);
@@ -453,6 +465,7 @@ nav .btn:hover {
 }
 .quality_service h2 {
     font-size: 45px;
+    color: var(--first-color);
 }
 .quality_service i {
     font-size: 40px;
@@ -478,6 +491,7 @@ nav .btn:hover {
 }
 .home_blog_section h2 {
     font-size: 45px;
+    color: var(--first-color);
 }
 .user_com p {
     font-size: 16px;
@@ -497,6 +511,16 @@ nav .btn:hover {
     color: var(--white-color);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+.home_why_choose {
+    padding: 50px 0;
+}
+.home_why_choose h2 {
+    font-size: 45px;
+    color: var(--first-color);
+}
+.home_why_choose img {
+    width: 80px;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 500px) {
@@ -548,6 +572,9 @@ nav .btn:hover {
     }
     .our_roofing h2 {
         font-size: 30px;
+    }
+    .home_why_choose {
+        padding: 30px 0;
     }
 }
 /* Home */
