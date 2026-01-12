@@ -1455,10 +1455,10 @@ nav .btn:hover {
 #getQuote_second .swiper img {
     width: 100px;
     margin: auto;
-    filter: grayscale(100%);
+    opacity: .5;
 }
 #getQuote_second .swiper img:hover {
-    filter: grayscale(0%);
+    opacity: 1;
 }
 @media only screen and (min-width: 300px) and (max-width: 500px) {
     #getQuote_second .swiper img {
