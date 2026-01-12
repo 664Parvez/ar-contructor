@@ -385,8 +385,23 @@ nav .btn:hover {
 .home_first a {
     color: var(--first-color);
 }
+.home_about {
+    padding: 50px 0;
+}
+.home_about img {
+    border-radius: 10px;
+    width: 100%;
+}
+.home_about h2 {
+    font-size: 45px;
+    color: var(--first-color);
+}
+.home_about h4 {
+    color: var(--third-color);
+}
 .service_offerd {
     padding: 50px 0;
+    background-color: var(--offwhite-color);
 }
 .service_offerd h2 {
     font-size: 45px;
@@ -428,6 +443,22 @@ nav .btn:hover {
     padding: 50px 0;
     background-color: var(--first-color);
     color: var(--white-color);
+}
+.roofing_rate_first {
+    border-bottom: 1px dashed var(--offwhite-color);
+    border-right: 1px dashed var(--offwhite-color);
+    padding-bottom: 15px;
+}
+.roofing_rate_second {
+    border-bottom: 1px dashed var(--offwhite-color);
+    padding-bottom: 15px;
+}
+.roofing_rate_third {
+    border-right: 1px dashed var(--offwhite-color);
+    padding: 15px;
+}
+.roofing_rate_forth {
+    padding-top: 15px;
 }
 .our_roofing h2 {
     font-size: 45px;
