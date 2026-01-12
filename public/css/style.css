@@ -65,7 +65,7 @@ h1,h2,h3,h4,h5,h6 {
   
 /* Track */
 ::-webkit-scrollbar-track {
-    background: var(--offwhite-color);
+    background: var(--rating-color);
 }
   
 /* Handle */
@@ -353,6 +353,42 @@ nav .btn:hover {
 
 
 /* Home */
+.home_slider .swiper-slide {
+    padding: 120px 0;
+}
+.slider_one {
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url("../image/slider1.jpg");
+}
+.slider_two {
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url("../image/slider2.jpg");
+}
+.slider_three {
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url("../image/slider3.jpg");
+}
+.home_slider h5 {
+    display: inline;
+    background-color: var(--first-color);
+    color: var(--offwhite-color);
+    padding: 0 15px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.home_slider h1 {
+    margin-top: 20px;
+    font-size: 60px;
+    color: var(--white-color);
+}
+.home_slider p {
+    font-size: 20px;
+    color: var(--white-color);
+}
+.home_slider .btn {
+    background-color: var(--first-color);
+    color: var(--offwhite-color);
+}
+.home_slider .btn:hover {
+    background-color: var(--second-color);
+}
 .home_first {
     padding: 50px 0;
     background-color: var(--offwhite-color);
@@ -560,13 +596,97 @@ nav .btn:hover {
     border-radius: 10px;
     box-shadow: 1px 1px 5px #e2e2e2;
 }
-
+.whatsapp_review {
+    padding: 50px 0;
+}
+.whatsapp_review h2 {
+    font-size: 45px;
+    color: var(--first-color);
+}
+.home_four_step {
+    padding: 50px 0;
+}
+.home_four_step img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+.home_four_step p {
+    height: 80px;
+    overflow-y: scroll;
+}
+.home_four_step .home_four_step_box 
+{
+    border: 1px dashed var(--first-color);
+    padding: 20px;
+    border-radius: 10px;
+}
+.fail_faster {
+    padding: 50px 0;
+}
+.fail_faster h2 {
+    font-size: 45px;
+    color: var(--first-color);
+}
+.fail_faster li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+.fail_faster img {
+    width: 100%;
+    border-radius: 10px;
+}
 @media only screen and (min-width: 300px) and (max-width: 500px) {
+    .slider_one {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .slider_two {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .slider_three {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .home_slider .swiper-slide {
+        padding: 50px 0;
+    }
+    .home_slider .swiper-slide h1 {
+        font-size: 35px;
+    }
+    .home_slider .swiper-slide p {
+        font-size: 18px;
+    }
     .home_first {
         padding: 30px 0;
     }
     .home_first .col-lg-3 {
         width: 50%;
+    }
+    .home_about {
+        padding: 30px 0;
+    }
+    .whatsapp_review {
+        padding: 30px 0;
+    }
+    .whatsapp_review h2 {
+        font-size: 30px;
+    }
+    .home_four_step {
+        padding: 30px 0;
+    }
+    .home_about h2 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .fail_faster {
+        padding: 30px 0;
+    }
+    .fail_faster h2 {
+        font-size: 30px;
     }
     .service_offerd {
         padding: 30px 0;
@@ -798,6 +918,7 @@ nav .btn:hover {
     font-size: 45px;
     color: var(--first-color);
 }
+
 @media only screen and (min-width: 300px) and (max-width: 500px) {
     .about_first_section {
         padding: 30px 0;
@@ -891,7 +1012,7 @@ nav .btn:hover {
     margin-top: 10px;
 }
 .price_first_section .price_table .main_logo_of_paint {
-    width: 150px;
+    width: 120px;
 }
 .price_first_section .price_table .painting_drum {
     width: 90px;

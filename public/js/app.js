@@ -29,3 +29,20 @@ copyright.innerText = copyDate
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
     }
+
+
+const items = document.querySelectorAll(".value_count");
+
+gsap.from(items, {
+    scrollTrigger: {
+        trigger: ".value_count",
+        scroller: "body",
+        markers: false,
+        start: "top 90%",
+        end: "bottom 90%",
+        scrub: 5
+    },
+    innerText: 0,
+    duration: 5,
+    snap: {innerText: 1}
+}); 
