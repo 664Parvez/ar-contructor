@@ -1343,6 +1343,96 @@ nav .btn:hover {
 /* Service */
 
 
+/* Aircon Service */
+.air_section_one {
+    padding: 50px 0;
+}
+.air_section_one img {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.air_section_one h1 {
+    color: var(--second-color);
+}
+.air_section_one .btn {
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+.air_section_one .btn:hover {
+    background-color: var(--second-color);
+}
+.air_section_two {
+    padding: 50px 0;
+}
+.air_section_two h2 {
+    color: var(--first-color);
+}
+.air_section_two li {
+    font-size: 18px;
+}
+.air_section_two li i {
+    color: var(--second-color);
+}
+.air_section_two img {
+    width: 100%;
+} 
+.air_section_three {
+    padding: 50px 0;
+}
+.air_section_three h2 {
+    color: var(--first-color);
+}
+.air_section_three li {
+    font-size: 18px;
+}
+.air_section_three li i {
+    color: var(--second-color);
+}
+.air_section_three img {
+    width: 100%;
+    border-radius: 20px;
+} 
+.air_section_four {
+    padding: 50px 0;
+}
+.air_section_four h2 {
+    color: var(--first-color);
+}
+.air_section_four li {
+    font-size: 18px;
+}
+.air_section_four li i {
+    color: var(--second-color);
+}
+.air_section_four img {
+    width: 100%;
+    border-radius: 20px;
+} 
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .air_section_one {
+        padding: 30px 0;
+    }
+    .air_section_two {
+        padding: 30px 0;
+    }
+    .air_section_two img {
+        margin-bottom: 20px;
+    }
+    .air_section_three {
+        padding: 30px 0;
+    }
+    .air_section_four {
+        padding: 30px 0;
+    }
+    .air_section_three img {
+        margin-bottom: 20px;
+    }
+}
+/* Aircon Service */
+
+
 /* Pricing */
 .price_first_section {
     padding-bottom: 50px;
