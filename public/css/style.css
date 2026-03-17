@@ -1434,106 +1434,67 @@ nav .btn:hover {
 
 
 /* Pricing */
-.price_first_section {
+.pricing_section {
     padding-bottom: 50px;
 }
-.price_first_section h5 {
-    display: inline;
-    background-color: var(--first-color);
-    color: var(--offwhite-color);
-    padding: 0 15px;
-    border-bottom-right-radius: 5px;
-    border-top-left-radius: 5px;
+.pricing_section h2 {
+    font-size: 50px;
+    color: var(--first-color);
 }
-.price_first_section h2 {
-    font-size: 40px;
-    margin-top: 10px;
-}
-.price_first_section .price_table .main_logo_of_paint {
-    width: 120px;
-}
-.price_first_section .price_table .painting_drum {
-    width: 90px;
-}
-.price_second_section {
-    padding-bottom: 50px;
-}
-.price_third_section {
-    padding-bottom: 50px;
-}
-.price_second_section h5 {
-    display: inline;
-    background-color: var(--first-color);
-    color: var(--offwhite-color);
-    padding: 0 15px;
-    border-bottom-right-radius: 5px;
-    border-top-left-radius: 5px;
-}
-.price_second_section h2 {
-    font-size: 40px;
-    margin-top: 10px;
-}
-.price_second_section .price_table .main_logo_of_paint {
-    width: 150px;
-}
-.price_second_section .price_table .painting_drum {
-    width: 90px;
-}
-.price_second {
-    padding: 100px 0;
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../image/service-4-1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.price_form_side {
+.painting_box {
     background-color: var(--offwhite-color);
-    padding: 40px;
-    border-radius: 10px;    
+    padding: 20px;
+    border-radius: 20px;
 }
-.price_form_side h3 {
+.pricing_section img {
+    width: 50%;
+}
+.pricing_part {
+    height: 250px;
+    overflow-y: scroll;
+}
+.pricing_section .painting_name {
+    background-color: var(--second-color);
+    padding: 20px;
+    border-radius: 10px;
+}
+.pricing_section .painting_name h3 {
     font-size: 40px;
+    color: var(--white-color);
 }
-.price_second h5 {
-    display: inline;
-    background-color: var(--first-color);
-    color: var(--offwhite-color);
-    padding: 0 15px;
-    border-bottom-right-radius: 5px;
-    border-top-left-radius: 5px;
+.pricing_section .painting_name h5 {
+    color: var(--white-color);
 }
-.price_second input {
-    margin-bottom: 15px;
-}
-.price_second .btn {
+.pricing_section .btn {
     background-color: var(--first-color);
     color: var(--white-color);
 }
-.price_second .btn:hover {
+.pricing_section .btn:hover {
     background-color: var(--second-color);
     color: var(--white-color);
 }
+.pricing_section h4 span {
+    color: var(--first-color);
+    font-size: 40px;
+}
+.pricing_section li {
+    font-size: 18px;
+    padding: 15px 10px;
+    border-bottom: 1px solid var(--black-color);
+}
+
 @media only screen and (min-width: 300px) and (max-width: 500px)  {
-    .price_second {
-        padding: 40px 0;
-    }
-    .price_first_section h2 {
-        font-size: 30px;
-    }
-    .price_form_side h3 {
-        font-size: 30px;
-    }
-    .price_form_side {
-        padding: 20px;
-    }
-    .price_first_section {
+    .pricing_section {
         padding-bottom: 30px;
     }
-    .price_second_section {
-        padding-bottom: 30px;
+    .pricing_section h2 {
+        font-size: 35px;
     }
-    .price_third_section {
-        padding-bottom: 30px;
+    .pricing_section .painting_name h3 {
+        font-size: 35px;
+    }
+    .pricing_section h4 span {
+        font-size: 35px;
     }
 }
 /* Pricing */
