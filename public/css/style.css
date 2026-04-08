@@ -419,9 +419,12 @@ nav .btn:hover {
     padding: 50px 0;
     background-color: var(--offwhite-color);
 }
+.home_first .swiper-wrapper {
+    padding: 5px 0;
+}
 .home_first .services_box {
     outline: 1px solid var(--second-color);
-    border-radius: 50px;
+    border-radius: 60px;
     padding: 30px 0;
     transition: .5s ease-in-out;
 }
@@ -439,10 +442,9 @@ nav .btn:hover {
 .home_first .services_box p {
     color: var(--first-color);
 }
-.home_first i {
-    transform: rotate(45deg);
+.home_first img {
     color: var(--first-color);
-    font-size: 25px;
+    width: 50px;
 }
 .home_first a {
     color: var(--first-color);
@@ -775,6 +777,9 @@ nav .btn:hover {
     background-color: var(--second-color);
     color: var(--white-color);
 }
+.google_review {
+    padding: 50px 0;
+}
 @media only screen and (min-width: 300px) and (max-width: 500px) {
     .services_section {
         padding: 30px 0;
@@ -847,6 +852,9 @@ nav .btn:hover {
     .home_first .col-lg-3 {
         width: 50%;
     }
+    .home_first img {
+        width: 50px;
+    }
     .home_about {
         padding: 30px 0;
     }
@@ -895,6 +903,9 @@ nav .btn:hover {
     }
     .service_offerd img {
         display: none;
+    }
+    .google_review {
+        padding: 30px 0;
     }
     .quality_service {
         padding: 30px 0;
